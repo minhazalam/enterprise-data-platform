@@ -1,0 +1,66 @@
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type Checkers
+.mypy_cache/
+.pytype/
+
+# Ruff
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Environment Variables
+.env
+.env.*
+
+# Logs
+*.log
+
+# Temporary Files
+tmp/
+temp/
+
+# Data
+datasets/raw/*
+datasets/processed/*
+
+# Keep placeholder files
+!datasets/raw/.gitkeep
+!datasets/processed/.gitkeep
+!datasets/sample/.gitkeep
+
+# Docker
+*.pid
+
+# OS
+Thumbs.db
